@@ -1,0 +1,37 @@
+package Extra;		//package name  //function run pannum api
+public class Arithmatic {
+			public static void main(String[] args) {
+				int a=18,b=6;			//integer value  enpathal value kodukkanum
+				double c;				// integer value kidachalum 0.0 enpathu varuvatharkku double ena kodukkanum
+				c=a+b;					// Addition operation
+				System.out.println("Addition  c"+ "="+c);	//result vara System.out.println ene kodukkanum
+				c=a-b;					// subtraction operation
+				System.out.println("Subtraction  c"+"="+c);	//result vara System.out.println ene kodukkanum
+				c=a*b;					// Multiplication operation
+				System.out.println("Multiplication  c"+"="+c);	//result vara System.out.println ene kodukkanum
+				c=a/b;					// Division operation
+				System.out.println("Division  c"+"="+c);	//result vara System.out.println ene kodukkanum
+				c=a%b;					// Modulo operation
+				System.out.println("modulo  c"+"="+c);		//result vara System.out.println ene kodukkanum
+		
+				System.out.println("increment  c"+"="+c++); //Increment result vara System.out.println ene kodukkanum
+				a+=20;					// Autoincrement operation
+				System.out.println("Autoincrement   a"+"="+a);//result vara System.out.println ene kodukkanum
+				a=++a;					// Increment operation
+				System.out.println("increment  a"+"="+a); 		//result vara System.out.println ene kodukkanum
+				System.out.println("increment  a"+"="+a++);		//Increment result vara System.out.println ene kodukkanum
+				a=a+50;					// compound operation
+				System.out.println("compound  a"+"="+a);		//result vara System.out.println ene kodukkanum
+				a=a-40;					
+				System.out.println("compound  a"+"="+a);
+				a=a*5;
+				System.out.println("compound  a"+"="+a);
+				a=a/5;
+				System.out.println("compound  a"+"="+a);
+				int d=88,e=100;  		
+				System.out.println(d<e);  //boluen result paakka
+				System.out.println(d<77);
+				System.out.println(d>e);
+				System.out.println(d>101);
+				System.out.println(d>55);
+				System.out.println(e>=100);    }}
