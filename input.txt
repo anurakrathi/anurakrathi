@@ -1,0 +1,30 @@
+package Demo;
+import java.util.Scanner;
+import java.io.*;
+public class input {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner Scanner=new Scanner (System.in);
+		System.out.println("user Name:");
+		String name=Scanner.nextLine();
+		//System.out.println("Your Name"+name);
+		System.out.println("Password :");
+		int pass = Scanner.nextInt();
+		Scanner.nextLine();
+		//System.out.println("your password ="+pass);
+		System.out.println("What is your emailID ?");
+		String id=Scanner.nextLine();
+		//System.out.println("your emailID is "+id);
+		System.out.println("your address ");
+		Scanner.nextLine();
+		//System.out.println("your address is "+address);
+		System.out.println("father name");
+		String fathername=Scanner.nextLine();
+		//System.out.println("your father name is "+fathername);
+		System.out.println("what is your mothername ?");
+		String mothername=Scanner.nextLine();
+		//System.out.println("your mothername is "+mothername);
+		System.out.println(name+ "thankyou for your data");
+	}
+
+}
